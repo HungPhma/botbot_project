@@ -11,7 +11,7 @@ const port = process.env.PORT || 8000;
 
 // Middleware
 app.use(cors({
-    origin: 'https://www.botbotphotography.com'
+    origin: 'https://botbotphotography.com/'
 }))
 app.use(express.json());
 
