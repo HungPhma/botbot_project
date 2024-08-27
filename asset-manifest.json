@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "//hungphma.github.io/botbot_project/static/css/main.3bea3f8d.css",
+    "main.css": "//hungphma.github.io/botbot_project/static/css/main.e9d48bc8.css",
     "main.js": "//hungphma.github.io/botbot_project/static/js/main.90569057.js",
     "static/js/488.ab8430fb.chunk.js": "//hungphma.github.io/botbot_project/static/js/488.ab8430fb.chunk.js",
     "static/media/17.webp": "//hungphma.github.io/botbot_project/static/media/17.e5b75153e54940185d5e.webp",
@@ -38,12 +38,12 @@
     "index.html": "//hungphma.github.io/botbot_project/index.html",
     "static/media/instagram.svg": "//hungphma.github.io/botbot_project/static/media/instagram.115f3023fa9440b4d5612e79173ed68e.svg",
     "static/media/instagram-footer.svg": "//hungphma.github.io/botbot_project/static/media/instagram-footer.58ef20cf7323e79848593ff97d3f3607.svg",
-    "main.3bea3f8d.css.map": "//hungphma.github.io/botbot_project/static/css/main.3bea3f8d.css.map",
+    "main.e9d48bc8.css.map": "//hungphma.github.io/botbot_project/static/css/main.e9d48bc8.css.map",
     "main.90569057.js.map": "//hungphma.github.io/botbot_project/static/js/main.90569057.js.map",
     "488.ab8430fb.chunk.js.map": "//hungphma.github.io/botbot_project/static/js/488.ab8430fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bea3f8d.css",
+    "static/css/main.e9d48bc8.css",
     "static/js/main.90569057.js"
   ]
 }
