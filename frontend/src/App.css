@@ -270,6 +270,7 @@ body {
   .contact-button {
     margin-top: 10px !important;
     margin-bottom: 0 !important;
+
   }
 }
 @media (max-width: 320px) {
@@ -287,6 +288,7 @@ body {
   .contact-button {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
+    color: black !important;
   }
 }
 /* About.js */
@@ -345,6 +347,7 @@ body {
   z-index: 0;
 }
 .contact-button {
+  color: black;
   margin-top: 40px;
   margin-bottom:40px;
   padding: 10px 20px;
@@ -608,6 +611,7 @@ form .submit-button{
     font-size: 10px;
   }
   .contact-button{
+    color: black;
     font-size: 12px;
   }
 }
