@@ -9,12 +9,24 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 8000;
 
+// Allowed origins for CORS
+const allowedOrigins = ['https://hungphma.github.io', 'https://botbotphotography.com'];
+
 // Middleware
 app.use(cors({
-    origin: 'https://hungphma.github.io',
+    origin: (origin, callback) => {
+        // Allow requests with no origin (e.g., mobile apps or curl requests)
+        if (!origin) return callback(null, true);
+        if (allowedOrigins.includes(origin)) {
+            return callback(null, true);
+        } else {
+            return callback(new Error('Not allowed by CORS'));
+        }
+    },
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type']
 }));
+
 app.use(express.json());
 
 // Default Route
@@ -25,6 +37,7 @@ app.get('/', (req, res) => {
 // Route to handle form submission
 app.post('/send-email', async (req, res) => {
     const { customer_name, customer_email, customer_phoneNumber, customer_interest, customer_message } = req.body;
+
     // Create a transporter
     const transporter = nodemailer.createTransport({
         host: process.env.EMAIL_HOST,
