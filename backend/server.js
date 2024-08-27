@@ -11,7 +11,9 @@ const port = process.env.PORT || 8000;
 
 // Middleware
 app.use(cors({
-    origin: ['https://botbotphotography.com', 'https://hungphma.github.io']
+    origin: 'https://hungphma.github.io',
+    methods: ['GET', 'POST'],
+    allowedHeaders: ['Content-Type']
 }));
 app.use(express.json());
 
