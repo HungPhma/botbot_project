@@ -28,7 +28,7 @@ export const Contact = () => {
         }
 
         try {
-            const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
+            const API_BASE_URL = "https://botbot-project.onrender.com";
             const response = await fetch(`${API_BASE_URL}/send-email`, {
                 method: 'POST',
                 headers: {
