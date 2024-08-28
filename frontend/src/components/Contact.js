@@ -96,7 +96,7 @@ export const Contact = () => {
 
                     <div className='information'>
                         <p style={{color: '#333'}}>Email:</p>
-                        <p>dohoangtrang217@gmail.com</p>
+                        <p>botbotphotography.studio@gmail.com</p>
                     </div>
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
