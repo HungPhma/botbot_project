@@ -26,7 +26,16 @@ export const Contact = () => {
             });
             return;
         }
-
+        
+        Swal.fire({
+            title: 'Sending...',
+            text: "Please wait while your message is being sent.",
+            allowOutsideClick: false,
+            didOpen: () => {
+                Swal.showLoading();
+            }
+        });
+        
         try {
             const API_BASE_URL = "https://botbot-project.onrender.com";
             const response = await fetch(`${API_BASE_URL}/send-email`, {
