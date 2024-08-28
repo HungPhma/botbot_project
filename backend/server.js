@@ -54,23 +54,38 @@ app.post('/send-email', async (req, res) => {
         from: customer_email,
         to: process.env.EMAIL_USER, // Your email address
         subject: `New Message from ${customer_name} - #Botbotphotography Contact Form`,
-        text: `
-            Hello Trang,
-
-            You got a new message from ${customer_name}:
-
-            Name: ${customer_name}
-
-            Email Address: ${customer_email}
-
-            Phone Number: ${customer_phoneNumber}
-
-            Interested: ${customer_interest}
-
-            Message: ${customer_message}
-
-            Best wishes,
-            #Botbotphotography team!
+        html: `
+            <html>
+            <body>
+                <p>Hello Trang,</p>
+                <p>You’ve got a new message from <strong>${customer_name}</strong>:</p>
+                <table>
+                    <tr>
+                        <td><strong>Name:</strong></td>
+                        <td>${customer_name}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Email Address:</strong></td>
+                        <td>${customer_email}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Phone Number:</strong></td>
+                        <td>${customer_phoneNumber}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Interested:</strong></td>
+                        <td>${customer_interest}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Message:</strong></td>
+                        <td>${customer_message}</td>
+                    </tr>
+                </table>
+                <br>
+                <p>Best wishes,</p>
+                <p><strong>The Botbotphotography Team!</strong></p>
+            </body>
+            </html>
         `,
     };
 
