@@ -1,22 +1,23 @@
 /************ Custom Font ************/
-@font-face {
-  font-family: TCC;
-  src: url('../assests/tcc-font/TCCC-UnityHeadline-Black.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+
+.font-weight-1000 {
+  font-weight: 900; /* Montserrat doesn't have 1000, so use 900 for extra-bold */
+}
+
+.font-weight-900 {
   font-weight: 900;
 }
-@font-face {
-  font-family: TCC;
-  src: url('../assests/tcc-font/TCCC-UnityHeadline-Bold.ttf');
+
+.font-weight-700 {
   font-weight: 700;
 }
-@font-face {
-  font-family: TCC;
-  src: url('../assests/tcc-font/TCCC-UnityHeadline-Medium.ttf');
+
+.font-weight-500 {
   font-weight: 500;
 }
-@font-face {
-  font-family: TCC;
-  src: url('../assests/tcc-font/TCCC-UnityHeadline-Regular.ttf');
+
+.font-weight-400 {
   font-weight: 400;
 }
 
@@ -79,7 +80,7 @@ $shadows-big: multiple-box-shadow(100);
     transform: translate(-50%, -50%);
     color: black;
     text-align: center;
-    font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    // font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-weight:500;
     font-size: 40px;
     letter-spacing: 10px;

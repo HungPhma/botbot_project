@@ -1,37 +1,28 @@
 /************ Custom Font ************/
-@font-face {
-  font-family: TCC;
-  src: url('../assests/tcc-font/TCCC-UnityCondensed-Medium.ttf');
-  font-weight: 1000;
-}
-@font-face {
-  font-family: TCC;
-  src: url('../assests/tcc-font/TCCC-UnityHeadline-Black.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+
+.font-weight-900 {
   font-weight: 900;
 }
-@font-face {
-  font-family: TCC;
-  src: url('../assests/tcc-font/TCCC-UnityHeadline-Bold.ttf');
+
+.font-weight-700 {
   font-weight: 700;
 }
-@font-face {
-  font-family: TCC;
-  src: url('../assests/tcc-font/TCCC-UnityHeadline-Medium.ttf');
+
+.font-weight-500 {
   font-weight: 500;
 }
-@font-face {
-  font-family: TCC;
-  src: url('../assests/tcc-font/TCCC-UnityHeadline-Regular.ttf');
+
+.font-weight-400 {
   font-weight: 400;
 }
-
 /* App.css */
 body {
   background-color: white;
   margin: 0;
   padding: 0;
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  /* font-weight: 400; */
 }
 
 .app-background {
@@ -54,11 +45,11 @@ body {
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 20px; 
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .container-gallery h2{
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 .gallery-grid {
   display: grid;
@@ -78,12 +69,12 @@ body {
   width: 100%; 
   height: auto;
   box-sizing: border-box;
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 .album-title{
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 .gallery-card img {
@@ -118,7 +109,7 @@ body {
 .gallery-card .overlay .title {
   font-size: 20px; 
   margin-bottom: 10px; 
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .gallery-card .overlay .description {
@@ -293,8 +284,8 @@ body {
 }
 /* About.js */
 .about-text h2 {
-  font-weight: 900;
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about-container {
@@ -318,7 +309,7 @@ body {
   padding: 20px;
   background-color: #F5F5F5;
   border-radius: 10px;
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
 }
 .about-text p {
@@ -352,7 +343,7 @@ body {
   margin-bottom:40px;
   padding: 10px 20px;
   font-size: 16px;
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;  
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -542,7 +533,7 @@ html {
 form .submit-button{
   align-items: center;
   justify-content: center;
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .information p:nth-of-type(2){
   font-size: 13px;
@@ -599,7 +590,7 @@ form .submit-button{
     flex-direction: column;
     gap: 0 !important;
     margin-top: 0 !important;
-    font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   .album-grid-item{
     pointer-events: none;
@@ -744,7 +735,7 @@ form .submit-button{
   justify-content: center;
   height: 100%;
   box-sizing: border-box; 
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 form{
   width: 70%;
@@ -782,7 +773,7 @@ textarea::placeholder{
   color: black;
   margin-top: 12px;
   box-sizing: border-box;
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
 }
 
 .field .error-txt {
@@ -799,12 +790,12 @@ textarea::placeholder{
 
 form .text-area .item {
   resize: none;
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
 }
 
 form .text-area .error-txt {
   margin-top: -3px;
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
 }
 
 form button {
@@ -884,8 +875,8 @@ form button:hover {
   margin-bottom: 20px;
   font-size: 24px; 
   text-align: center;
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-weight: 900;
+  /* font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
+  font-weight: 700;
 }
 .sr-only {
   position: absolute;
@@ -941,7 +932,7 @@ form button:hover {
   color: #fff;
   padding: 20px;
   text-align: center;
-  font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* font-family: TCC, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
   font-weight: 400;
 }
 
