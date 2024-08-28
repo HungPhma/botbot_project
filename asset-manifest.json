@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "//hungphma.github.io/botbot_project/static/css/main.25fe2f79.css",
+    "main.css": "//hungphma.github.io/botbot_project/static/css/main.bca698ce.css",
     "main.js": "//hungphma.github.io/botbot_project/static/js/main.e46c8984.js",
     "static/js/488.ab8430fb.chunk.js": "//hungphma.github.io/botbot_project/static/js/488.ab8430fb.chunk.js",
     "static/media/17.webp": "//hungphma.github.io/botbot_project/static/media/17.e5b75153e54940185d5e.webp",
@@ -15,12 +15,7 @@
     "static/media/9.webp": "//hungphma.github.io/botbot_project/static/media/9.119f8fe677a7f66e8ce9.webp",
     "static/media/logo-branding.jpg": "//hungphma.github.io/botbot_project/static/media/logo-branding.a48b6640eadb2a7d6a69.jpg",
     "static/media/11.webp": "//hungphma.github.io/botbot_project/static/media/11.65e3f75edf930e13ccce.webp",
-    "static/media/TCCC-UnityHeadline-Black.ttf": "//hungphma.github.io/botbot_project/static/media/TCCC-UnityHeadline-Black.f32661d219fc232ef144.ttf",
-    "static/media/TCCC-UnityHeadline-Medium.ttf": "//hungphma.github.io/botbot_project/static/media/TCCC-UnityHeadline-Medium.8e0b857ea6841238c66e.ttf",
-    "static/media/TCCC-UnityHeadline-Regular.ttf": "//hungphma.github.io/botbot_project/static/media/TCCC-UnityHeadline-Regular.6ef79e9fd5b4887e17df.ttf",
-    "static/media/TCCC-UnityHeadline-Bold.ttf": "//hungphma.github.io/botbot_project/static/media/TCCC-UnityHeadline-Bold.a6a443f81547cd1aea8a.ttf",
     "static/media/2.webp": "//hungphma.github.io/botbot_project/static/media/2.74ee827e3338a157a0bb.webp",
-    "static/media/TCCC-UnityCondensed-Medium.ttf": "//hungphma.github.io/botbot_project/static/media/TCCC-UnityCondensed-Medium.d61dbfe2e5bc39f1eb96.ttf",
     "static/media/1.webp": "//hungphma.github.io/botbot_project/static/media/1.e71fa98146dcbb411ad6.webp",
     "static/media/botbot-logo.webp": "//hungphma.github.io/botbot_project/static/media/botbot-logo.ca02914008909d0b3d98.webp",
     "static/media/10.webp": "//hungphma.github.io/botbot_project/static/media/10.b4aff4047c6a11352f60.webp",
@@ -38,12 +33,12 @@
     "index.html": "//hungphma.github.io/botbot_project/index.html",
     "static/media/instagram.svg": "//hungphma.github.io/botbot_project/static/media/instagram.115f3023fa9440b4d5612e79173ed68e.svg",
     "static/media/instagram-footer.svg": "//hungphma.github.io/botbot_project/static/media/instagram-footer.58ef20cf7323e79848593ff97d3f3607.svg",
-    "main.25fe2f79.css.map": "//hungphma.github.io/botbot_project/static/css/main.25fe2f79.css.map",
+    "main.bca698ce.css.map": "//hungphma.github.io/botbot_project/static/css/main.bca698ce.css.map",
     "main.e46c8984.js.map": "//hungphma.github.io/botbot_project/static/js/main.e46c8984.js.map",
     "488.ab8430fb.chunk.js.map": "//hungphma.github.io/botbot_project/static/js/488.ab8430fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25fe2f79.css",
+    "static/css/main.bca698ce.css",
     "static/js/main.e46c8984.js"
   ]
 }
